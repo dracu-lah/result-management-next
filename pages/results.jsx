@@ -1,9 +1,9 @@
-import UploadCSV from "@/components/UploadCSV";
+import ResultData from "@/components/ResultData/ResultData";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/router";
 import React, { useEffect } from "react";
 
-const index = () => {
+const results = () => {
   const router = useRouter();
   const { data: session } = useSession();
 
@@ -13,11 +13,7 @@ const index = () => {
     }
   }, [session]);
 
-  return (
-    <div className="min-h-[90vh] items-center justify-center flex ">
-      <UploadCSV />
-    </div>
-  );
+  return <ResultData />;
 };
 
-export default index;
+export default results;

@@ -1,0 +1,2990 @@
+[
+  {
+    "registerNumber": 20133048,
+    "studentName": "VIVEK T K",
+    "branch": "Computer Engineering",
+    "cgpa": 10,
+    "semesters": [
+      {
+        "semName": "Semester 1",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 2",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 3",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 4",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 5",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 6",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      }
+    ]
+  },
+  {
+    "registerNumber": 20133044,
+    "studentName": "ASMA PA",
+    "branch": "Computer Engineering",
+    "cgpa": 10,
+    "semesters": [
+      {
+        "semName": "Semester 1",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 2",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 3",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 4",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 5",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 6",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      }
+    ]
+  },
+  {
+    "registerNumber": 20133046,
+    "studentName": "Messi",
+    "branch": "Computer Engineering",
+    "cgpa": 10,
+    "semesters": [
+      {
+        "semName": "Semester 1",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 2",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 3",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 4",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 5",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 6",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      }
+    ]
+  },
+  {
+    "registerNumber": 20133056,
+    "studentName": "Nevil Krishna",
+    "branch": "Computer Engineering",
+    "cgpa": 10,
+    "semesters": [
+      {
+        "semName": "Semester 1",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 2",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 3",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 4",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 5",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 6",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      }
+    ]
+  },
+  {
+    "registerNumber": 201330345,
+    "studentName": "Jyodhiradithya",
+    "branch": "Computer Engineering",
+    "cgpa": 10,
+    "semesters": [
+      {
+        "semName": "Semester 1",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 2",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 3",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 4",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 5",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 6",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      }
+    ]
+  },
+  {
+    "registerNumber": 201330456,
+    "studentName": "Kiran Dinesh",
+    "branch": "Computer Engineering",
+    "cgpa": 10,
+    "semesters": [
+      {
+        "semName": "Semester 1",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 2",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 3",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 4",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 5",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 6",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      }
+    ]
+  },
+  {
+    "registerNumber": 2013323,
+    "studentName": "Gody",
+    "branch": "Computer Engineering",
+    "cgpa": 10,
+    "semesters": [
+      {
+        "semName": "Semester 1",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 2",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 3",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 4",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 5",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 6",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      }
+    ]
+  },
+  {
+    "registerNumber": 20123330,
+    "studentName": "Sainu",
+    "branch": "Computer Engineering",
+    "cgpa": 10,
+    "semesters": [
+      {
+        "semName": "Semester 1",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 2",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 3",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 4",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 5",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 6",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      }
+    ]
+  },
+  {
+    "registerNumber": 20133049,
+    "studentName": "Nidhin Lalji",
+    "branch": "Computer Engineering",
+    "cgpa": 10,
+    "semesters": [
+      {
+        "semName": "Semester 1",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 2",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 3",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 4",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 5",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      },
+      {
+        "semName": "Semester 6",
+        "courses": [
+          {
+            "course": "3131-Computer Architecture",
+            "internalMark": 44,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3001-Environmental Science & Disaster Management",
+            "internalMark": 34,
+            "grade": "B",
+            "result": "P"
+          },
+          {
+            "course": "3139-Database Management System Lab",
+            "internalMark": 42,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3138-Digital Computer Principles Lab",
+            "internalMark": 40,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3137-Objected Oriented Programming Lab",
+            "internalMark": 46,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3134-Objected Oriented Programming through C++",
+            "internalMark": 41,
+            "grade": "A",
+            "result": "P"
+          },
+          {
+            "course": "3133-Digital Computer Principles",
+            "internalMark": 44,
+            "grade": "S",
+            "result": "P"
+          },
+          {
+            "course": "3132-Database Management System",
+            "internalMark": 42,
+            "grade": "S",
+            "result": "P"
+          }
+        ],
+        "sgpa": 10
+      }
+    ]
+  }
+]
