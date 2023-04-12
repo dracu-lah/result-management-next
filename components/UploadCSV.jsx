@@ -42,7 +42,7 @@ const UploadCSV = () => {
         e.preventDefault();
 
         try {
-          await axios.post("http://localhost:3001/api/results", { result });
+          await axios.post("http://localhost:8000/api/results", { result });
           console.log("results sent to server");
         } catch (error) {
           console.error(error);

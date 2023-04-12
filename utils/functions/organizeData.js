@@ -9,10 +9,10 @@ export const organizeData = (jsonData) => {
     if (newData) {
       newData.courses.push({
         course: data["course"],
-        examType: data["exam type"],
-        attendance: data["attendance"],
-        withheld: data["withheld"],
-        internalMark: data["internal mark"],
+        // examType: data["exam type"],
+        // attendance: data["attendance"],
+        // withheld: data["withheld"],
+        // internalMark: data["internal mark"],
         grade: data["grade"],
         result: data["result"],
       });
@@ -20,15 +20,15 @@ export const organizeData = (jsonData) => {
       organizedData.push({
         registerNumber: data["register number"],
         studentName: data["student name"],
-        branch: data["branch"],
+        // branch: data["branch"],
         semester: data["semester"],
         courses: [
           {
             course: data["course"],
-            examType: data["exam type"],
-            attendance: data["attendance"],
-            withheld: data["withheld"],
-            internalMark: data["internal mark"],
+            // examType: data["exam type"],
+            // attendance: data["attendance"],
+            // withheld: data["withheld"],
+            // internalMark: data["internal mark"],
             grade: data["grade"],
             result: data["result"],
           },
@@ -36,5 +36,6 @@ export const organizeData = (jsonData) => {
       });
     }
   });
+  console.log(JSON.stringify(organizedData));
   return organizedData;
 };
