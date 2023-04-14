@@ -1,7 +1,6 @@
 import ExcelDownloadSemester from "./ExcelDownloadSemester";
 
 const TableData = ({ semData, regNo, studentName }) => {
-
   const updatedSemData = semData.map((item) => ({
     ...item,
     registerNumber: regNo,
@@ -37,7 +36,7 @@ const TableData = ({ semData, regNo, studentName }) => {
             <tbody>
               {item.courses.map((item, index) => (
                 <tr key={index}>
-                  <th>{index}</th>
+                  <th>{index + 1}</th>
                   <td>{item.course}</td>
                   <td>{item.internalMark}</td>
                   <td>{item.grade}</td>

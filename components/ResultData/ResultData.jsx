@@ -57,9 +57,6 @@ const ResultData = () => {
                   <span className="bg-primary p-2 rounded-lg">
                     {item.registerNumber}
                   </span>
-                  <span className="bg-primary p-2 rounded-lg ">
-                    {item.branch}
-                  </span>
                   <span className="bg-secondary p-2 rounded-lg">
                     CGPA : <span>{item.cgpa}</span>
                   </span>
