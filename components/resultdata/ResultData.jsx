@@ -63,7 +63,10 @@ const ResultData = () => {
                     {item.registerNumber}
                   </span>
                   <span className="bg-secondary p-2 rounded-lg">
-                    CGPA : <span>{item.cgpa} ({item.cgpa*9.5}%)</span>
+                    CGPA :
+                    <span>
+                      {item.cgpa} ({item.cgpa * 9.5}%)
+                    </span>
                   </span>
                 </p>
                 <div className=" flex justify-between items-center gap-2">
