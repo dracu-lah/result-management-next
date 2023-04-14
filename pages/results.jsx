@@ -1,4 +1,4 @@
-import ResultData from "@/components/ResultData/ResultData";
+import ResultData from "@/components/resultdata/ResultData";
 import { useSession } from "next-auth/react";
 import { useRouter } from "next/router";
 import React, { useEffect } from "react";

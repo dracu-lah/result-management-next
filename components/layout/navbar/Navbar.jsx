@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import Switcher from "./Switcher";
-import { useSession} from "next-auth/react";
+import { useSession } from "next-auth/react";
 import Image from "next/image";
 import { useRouter } from "next/router";
 
@@ -10,9 +10,9 @@ const Navbar = () => {
   const { data: session } = useSession();
 
   return (
-    <div className="z-50 sticky top-0 navbar bg-base-100  border-b border-b-slate-100/20 opacity-90 backdrop-filter backdrop-blur-lg">
+    <div className="z-50 sticky top-0 navbar bg-base-100  border-b border-b-slate-100/20 opacity-90 backdrop-filter backdrop-blur-lg ">
       <div className="flex-1">
-        <Link className="btn btn-ghost normal-case text-xl" href={"/"}>
+        <Link className="btn btn-ghost normal-case md:text-xl" href={"/"}>
           Result Management
         </Link>
       </div>

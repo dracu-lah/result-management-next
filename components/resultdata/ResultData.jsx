@@ -1,7 +1,7 @@
 "use client";
 import React, { useEffect, useState } from "react";
 import ExcelDownloadButton from "./ExcelDownloadButton";
-import TableData from "./TableData";
+import TableData from "./tabledata/TableData";
 import Pagination from "./Pagination";
 
 const ResultData = () => {
@@ -16,16 +16,21 @@ const ResultData = () => {
       .then((data) => setData(data))
       .catch((error) => console.log(error));
   }, []);
+
+  // filtering data for search
   const filteredData = data.filter((item) => {
     return (
-      item.studentName.toLowerCase().includes(search.toLowerCase()) ||
+      item.name.toLowerCase().includes(search.toLowerCase()) ||
       item.registerNumber.toString().includes(search)
     );
   });
 
-  const lastPostIndex = currentPage * postsPerPage;
-  const firstPostIndex = lastPostIndex - postsPerPage;
-
+  // sorted data with pagination
+  const sortedData = () => {
+    const lastPostIndex = currentPage * postsPerPage;
+    const firstPostIndex = lastPostIndex - postsPerPage;
+    return filteredData.slice(firstPostIndex, lastPostIndex);
+  };
   return (
     <div className="flex flex-col justify-between items-center gap-y-2  min-h-[90vh]">
       <div>
@@ -39,7 +44,7 @@ const ResultData = () => {
           />
         </div>
         <div className=" flex flex-col gap-3 mx-3">
-          {filteredData.slice(firstPostIndex, lastPostIndex).map((item) => (
+          {sortedData().map((item) => (
             <div
               key={item.registerNumber}
               tabIndex={0}
@@ -48,17 +53,17 @@ const ResultData = () => {
               <input className="" type="checkbox" />
 
               <div
-                className={`flex items-center justify-between collapse-title text-xl font-medium`}
+                className={`flex items-center justify-between collapse-title   font-medium`}
               >
-                <p className="text-xs flex gap-1 text-black">
+                <p className=" flex gap-1 text-black text-xs flex-wrap">
                   <span className="bg-primary  p-2 rounded-lg ">
-                    {item.studentName}
+                    {item.name}
                   </span>
                   <span className="bg-primary p-2 rounded-lg">
                     {item.registerNumber}
                   </span>
                   <span className="bg-secondary p-2 rounded-lg">
-                    CGPA : <span>{item.cgpa}</span>
+                    CGPA : <span>{item.cgpa} ({item.cgpa*9.5}%)</span>
                   </span>
                 </p>
                 <div className=" flex justify-between items-center gap-2">
@@ -68,8 +73,8 @@ const ResultData = () => {
               <div className="collapse-content">
                 <TableData
                   semData={item.semesters}
-                  regNo={item.registerNumber}
-                  studentName={item.studentName}
+                  registerNumber={item.registerNumber}
+                  name={item.name}
                 />
               </div>
             </div>

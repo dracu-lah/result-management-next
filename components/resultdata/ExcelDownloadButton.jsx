@@ -5,27 +5,30 @@ import { usePapaParse } from "react-papaparse";
 
 const ExcelDownloadButton = ({ data }) => {
   const { jsonToCSV } = usePapaParse();
+  const { registerNumber, name, cgpa } = data;
+  // get row data
+  const getRowData = () => {
+    const rows = [];
 
-  const json2CSV = () => {
-    // extract the student data
-    const rowsData = [];
-
-    const { registerNumber, studentName: name, cgpa } = data;
     for (const semesters of data.semesters) {
-      const { semName, sgpa } = semesters;
+      const { sem, sgpa } = semesters;
 
-      rowsData.push({
+      rows.push({
         registerNumber: registerNumber,
         name: name,
-        semName: semName,
+        sem: sem,
         sgpa: sgpa,
         cgpa: cgpa,
       });
     }
+    return rows;
+  };
+  // Download csv file
+  const csvDownload = () => {
+    const rowData = getRowData();
 
-    console.log(rowsData);
     // convert jsonToCSV
-    const csvData = jsonToCSV(rowsData);
+    const csvData = jsonToCSV(rowData);
     // Create a Blob object from the CSV data
     const blob = new Blob([csvData], { type: "text/csv;charset=utf-8;" });
 
@@ -39,7 +42,7 @@ const ExcelDownloadButton = ({ data }) => {
     link.click();
   };
   return (
-    <button onClick={json2CSV} className="p-2 bg-slate-300 rounded-lg z-30">
+    <button onClick={csvDownload} className="p-2 bg-slate-300 rounded-lg z-30">
       <BsFillFileEarmarkExcelFill className="text-green-500 " />
     </button>
   );

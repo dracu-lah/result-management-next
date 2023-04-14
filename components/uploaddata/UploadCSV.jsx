@@ -4,7 +4,7 @@ import { read, utils } from "xlsx";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import axios from "axios";
-import { organizeData } from "../utils/functions/organizeData";
+import { organizeData } from "../../utils/functions/organizeData";
 
 const UploadCSV = () => {
   const [result, setResult] = useState({});
@@ -37,7 +37,7 @@ const UploadCSV = () => {
 
   return (
     <form
-      className="flex gap-x-10"
+      className="flex flex-col md:flex-row gap-10 items-center justify-center"
       onSubmit={async (e) => {
         e.preventDefault();
 
