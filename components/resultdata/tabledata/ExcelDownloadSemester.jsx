@@ -5,11 +5,11 @@ import { usePapaParse } from "react-papaparse";
 const ExcelDownloadSemester = ({ semData }) => {
   const { jsonToCSV } = usePapaParse();
 
+  // destructuring sem data
   const { registerNumber, name, sem, sgpa } = semData;
   const getRowData = () => {
     const rows = [];
-    // destructuring sem data
-
+    
     for (const semCourse of semData.courses) {
       const { result, course, grade } = semCourse;
 

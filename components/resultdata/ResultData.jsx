@@ -3,15 +3,16 @@ import React, { useEffect, useReducer, useState } from "react";
 import ExcelDownloadButton from "./ExcelDownloadButton";
 import TableData from "./tabledata/TableData";
 import Pagination from "./Pagination";
-
+// initialising states
 const initialState = {
   search: "",
   data: [],
   currentPage: 1,
   postsPerPage: 6,
 };
-
+// reducer functions
 const reducer = (state, action) => {
+  // switch through states
   switch (action.type) {
     case "SET_SEARCH":
       return { ...state, search: action.payload };
