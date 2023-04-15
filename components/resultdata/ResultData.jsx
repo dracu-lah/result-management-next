@@ -1,34 +1,51 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import React, { useEffect, useReducer, useState } from "react";
 import ExcelDownloadButton from "./ExcelDownloadButton";
 import TableData from "./tabledata/TableData";
 import Pagination from "./Pagination";
 
+const initialState = {
+  search: "",
+  data: [],
+  currentPage: 1,
+  postsPerPage: 6,
+};
+
+const reducer = (state, action) => {
+  switch (action.type) {
+    case "SET_SEARCH":
+      return { ...state, search: action.payload };
+    case "SET_DATA":
+      return { ...state, data: action.payload };
+    case "SET_CURRENT_PAGE":
+      return { ...state, currentPage: action.payload };
+    default:
+      return state;
+  }
+};
+
 const ResultData = () => {
-  const [search, setSearch] = useState("");
-  const [data, setData] = useState([]);
-  const [currentPage, setCurrentPage] = useState(1);
-  const [postsPerPage] = useState(6);
+  const [state, dispatch] = useReducer(reducer, initialState);
 
   useEffect(() => {
     fetch("output.json")
       .then((response) => response.json())
-      .then((data) => setData(data))
+      .then((data) => dispatch({ type: "SET_DATA", payload: data }))
       .catch((error) => console.log(error));
   }, []);
 
   // filtering data for search
-  const filteredData = data.filter((item) => {
+  const filteredData = state.data.filter((item) => {
     return (
-      item.name.toLowerCase().includes(search.toLowerCase()) ||
-      item.registerNumber.toString().includes(search)
+      item.name.toLowerCase().includes(state.search.toLowerCase()) ||
+      item.registerNumber.toString().includes(state.search)
     );
   });
 
   // sorted data with pagination
   const sortedData = () => {
-    const lastPostIndex = currentPage * postsPerPage;
-    const firstPostIndex = lastPostIndex - postsPerPage;
+    const lastPostIndex = state.currentPage * state.postsPerPage;
+    const firstPostIndex = lastPostIndex - state.postsPerPage;
     return filteredData.slice(firstPostIndex, lastPostIndex);
   };
   return (
@@ -37,7 +54,9 @@ const ResultData = () => {
         <div className="flex flex-col  items-center m-5 gap-y-4">
           <h2 className="">Student Results</h2>
           <input
-            onChange={(e) => setSearch(e.target.value)}
+            onChange={(e) =>
+              dispatch({ type: "SET_SEARCH", payload: e.target.value })
+            }
             type="text"
             className="bg-slate-200 text-center p-2 text-xs text-neutral rounded-lg px-2 outline-none"
             placeholder="find student by name"
@@ -86,10 +105,10 @@ const ResultData = () => {
       </div>
       <div className="m-4">
         <Pagination
-          totalPosts={data.length}
-          postsPerPage={postsPerPage}
-          setCurrentPage={setCurrentPage}
-          currentPage={currentPage}
+          totalPosts={state.data.length}
+          postsPerPage={state.postsPerPage}
+          dispatch={dispatch}
+          state={state}
         />
       </div>
     </div>

@@ -1,26 +1,27 @@
 import React from "react";
 
-const Pagination = ({
-  totalPosts,
-  postsPerPage,
-  setCurrentPage,
-  currentPage,
-}) => {
-  let pages = [];
+const Pagination = ({ totalPosts, postsPerPage, dispatch, state }) => {
+  const pageNumbers = [];
+
   for (let i = 1; i <= Math.ceil(totalPosts / postsPerPage); i++) {
-    pages.push(i);
+    pageNumbers.push(i);
   }
+
+  const handlePageClick = (pageNumber) => {
+    dispatch({ type: "SET_CURRENT_PAGE", payload: pageNumber });
+  };
+
   return (
     <div className="btn-group">
-      {pages.map((page, index) => (
+      {pageNumbers.map((number) => (
         <button
-          key={index}
+          key={number}
           className={`btn btn-xs ${
-            page === currentPage && "btn-active bg-gray-100"
+            number === state.currentPage && "btn-active bg-gray-100"
           }`}
-          onClick={() => setCurrentPage(page)}
+          onClick={() => handlePageClick(number)}
         >
-          {page}
+          {number}
         </button>
       ))}
     </div>
