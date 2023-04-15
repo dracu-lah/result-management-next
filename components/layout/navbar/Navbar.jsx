@@ -2,8 +2,8 @@ import Link from "next/link";
 import React from "react";
 import Switcher from "./Switcher";
 import { useSession } from "next-auth/react";
-import Image from "next/image";
 import { useRouter } from "next/router";
+import { FaUserCircle } from "react-icons/fa";
 
 const Navbar = () => {
   const router = useRouter();
@@ -30,13 +30,9 @@ const Navbar = () => {
           <li>
             <a className="p-0 h-0">
               {session && (
-                <Image
+                <FaUserCircle
                   onClick={() => router.push("/auth/profile")}
-                  className="hover:opacity-80 duration-300"
-                  src={session.user.image}
-                  width={40}
-                  height={40}
-                  alt={session.user.name}
+                  className="hover:opacity-80 duration-300 h-5 w-5"
                 />
               )}
             </a>

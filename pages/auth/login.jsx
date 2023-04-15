@@ -11,6 +11,7 @@ export default function Component() {
       router.push("/");
     }
   }, [session]);
+  
   if (!session) {
     return (
       <div className="flex flex-col gap-10 justify-center items-center min-h-[80vh]">

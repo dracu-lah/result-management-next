@@ -1,8 +1,7 @@
-import Image from "next/image";
 import React, { useEffect } from "react";
 import { useSession, signIn, signOut } from "next-auth/react";
 import { useRouter } from "next/router";
-
+import { FaUserCircle } from "react-icons/fa";
 const profile = () => {
   const router = useRouter();
   const { data: session } = useSession();
@@ -11,24 +10,17 @@ const profile = () => {
     if (session == null) {
       router.push("/");
     }
-  }, [session]);
+  }, [session]); 
   return (
     <div className="flex justify-center items-center  min-h-[90vh] text-black uppercase">
       <div className="bg-secondary rounded-lg flex flex-col gap-y-4 items-center justify-between p-6">
-        <Image
-          className="hover:opacity-80 duration-300"
-          src={session?.user.image}
-          width={100}
-          height={100}
-          alt={session?.user.name}
-        />
+
+        <FaUserCircle className="hover:opacity-80 duration-300 h-20 w-10" />
         <div>
           <p>
-            Name : <span>{session?.user.name}</span>
+            USER : <span>{session?.user.name}</span>
           </p>
-          <p>
-            Email : <span>{session?.user.email}</span>
-          </p>
+
         </div>
         <button className="btn" onClick={() => signOut()}>
           sign out
