@@ -11,9 +11,8 @@ import {
 const SemesterAreaChart = ({ semData }) => {
   const data = [];
   semData.map((sem) => {
-    data.push({ sem: `sem:${sem.sem}`, sgpa: sem.sgpa });
+    data.push({ sem: `sem:${sem.semester}`, sgpa: sem.sgpa });
   });
-  console.log(data);
   return (
     <AreaChart
       width={730}
@@ -32,7 +31,7 @@ const SemesterAreaChart = ({ semData }) => {
         </linearGradient>
       </defs>
       <XAxis dataKey="sem" />
-      <YAxis />
+      <YAxis domain={[0, 10]} />
       <CartesianGrid strokeDasharray="3 3" />
       <Tooltip />
       <Area

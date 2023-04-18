@@ -6,10 +6,10 @@ const ExcelDownloadSemester = ({ semData }) => {
   const { jsonToCSV } = usePapaParse();
 
   // destructuring sem data
-  const { registerNumber, name, sem, sgpa } = semData;
+  const { registerNumber, name, semester, sgpa } = semData;
   const getRowData = () => {
     const rows = [];
-    
+
     for (const semCourse of semData.courses) {
       const { result, course, grade } = semCourse;
 
@@ -17,7 +17,7 @@ const ExcelDownloadSemester = ({ semData }) => {
       rows.push({
         registerNumber,
         name,
-        sem,
+        semester,
         sgpa,
         course,
         grade,
@@ -42,7 +42,7 @@ const ExcelDownloadSemester = ({ semData }) => {
     // Create a link element to download the CSV file
     const link = document.createElement("a");
     link.href = url;
-    link.download = `${name}_${sem}.csv`;
+    link.download = `${name}_${semester}.csv`;
     link.click();
   };
 

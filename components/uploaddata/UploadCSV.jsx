@@ -10,28 +10,32 @@ const UploadCSV = () => {
   const [result, setResult] = useState({});
   const readUploadFile = (e) => {
     e.preventDefault();
-    if (e.target.files) {
-      const reader = new FileReader();
-      reader.onload = (e) => {
-        const data = e.target.result;
-        const workbook = read(data, { type: "array" });
-        const sheetName = workbook.SheetNames[0];
-        const worksheet = workbook.Sheets[sheetName];
-        const xlsx_json = utils.sheet_to_json(worksheet);
-        const str = JSON.stringify(xlsx_json);
+    try {
+      if (e.target.files) {
+        const reader = new FileReader();
+        reader.onload = (e) => {
+          const data = e.target.result;
+          const workbook = read(data, { type: "array" });
+          const sheetName = workbook.SheetNames[0];
+          const worksheet = workbook.Sheets[sheetName];
+          const xlsx_json = utils.sheet_to_json(worksheet);
+          const str = JSON.stringify(xlsx_json);
 
-        let isFound = str.includes("register number");
+          let isFound = str.includes("register number");
 
-        if (isFound) {
-          const organizedData = organizeData(xlsx_json);
-          setResult(organizedData);
-          toast("Correct file is uploaded");
-        } else {
-          toast("Wrong file or Wrong file format");
-          return;
-        }
-      };
-      reader.readAsArrayBuffer(e.target.files[0]);
+          if (isFound) {
+            const organizedData = organizeData(xlsx_json);
+            setResult(organizedData);
+            toast("Correct file is uploaded");
+          } else {
+            toast("Wrong file or Wrong file format");
+            return;
+          }
+        };
+        reader.readAsArrayBuffer(e.target.files[0]);
+      }
+    } catch (error) {
+      console.log("error in file reading");
     }
   };
 
@@ -42,7 +46,11 @@ const UploadCSV = () => {
         e.preventDefault();
 
         try {
-          await axios.post("http://localhost:8000/api/results", { result });
+          // await axios.post("http://localhost:8000/api/results", { result });
+          await axios.post(
+            "https://result-management-node-production.up.railway.app/",
+            result
+          );
           console.log("results sent to server");
         } catch (error) {
           console.error(error);

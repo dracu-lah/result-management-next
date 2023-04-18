@@ -3,6 +3,7 @@ import React, { useEffect, useReducer, useState } from "react";
 import ExcelDownloadButton from "./ExcelDownloadButton";
 import TableData from "./tabledata/TableData";
 import Pagination from "./Pagination";
+import axios from "axios";
 // initialising states
 const initialState = {
   search: "",
@@ -27,14 +28,23 @@ const reducer = (state, action) => {
 
 const ResultData = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
+  // use effect for output.json
 
+  // useEffect(() => {
+  //   fetch("output.json")
+  //     .then((response) => response.json())
+  //     .then((data) => dispatch({ type: "SET_DATA", payload: data }))
+  //     .catch((error) => console.log(error));
+  // }, []);
   useEffect(() => {
-    fetch("output.json")
-      .then((response) => response.json())
-      .then((data) => dispatch({ type: "SET_DATA", payload: data }))
-      .catch((error) => console.log(error));
+    axios
+      .get(
+        "https://result-management-node-production.up.railway.app/api/results"
+      )
+      .then((response) =>
+        dispatch({ type: "SET_DATA", payload: response.data })
+      );
   }, []);
-
   // filtering data for search
   const filteredData = state.data.filter((item) => {
     return (
@@ -85,7 +95,7 @@ const ResultData = () => {
                   <span className="bg-secondary p-2 rounded-lg">
                     CGPA :
                     <span>
-                      {item.cgpa} ({item.cgpa * 9.5}%)
+                      {item.cgpa} ({(item.cgpa * 9.5).toFixed(2)}%)
                     </span>
                   </span>
                 </p>

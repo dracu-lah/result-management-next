@@ -11,12 +11,12 @@ const TableData = ({ semData, registerNumber, name }) => {
 
   return (
     <div className="overflow-x-auto">
-      <SemesterAreaChart semData={semData} />
+      <SemesterAreaChart className="select-none" semData={semData} />
       {updatedSemData.map((item, index) => (
         <div key={index}>
           <div className="flex justify-between m-2 items-center">
             <h1 className="text-center p-4 uppercase font-bold">
-              Semester {item.sem}
+              Semester {item.semester}
             </h1>
             <div className="flex gap-x-2">
               <ExcelDownloadSemester semData={item} />
