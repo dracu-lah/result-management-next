@@ -11,12 +11,12 @@ const ExcelDownloadButton = ({ data }) => {
     const rows = [];
 
     for (const semesters of data.semesters) {
-      const { sem, sgpa } = semesters;
+      const { semester, sgpa } = semesters;
 
       rows.push({
         registerNumber: registerNumber,
         name: name,
-        sem: sem,
+        sem: semester,
         sgpa: sgpa,
         cgpa: cgpa,
       });
