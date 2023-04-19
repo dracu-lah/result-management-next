@@ -21,6 +21,9 @@ const Navbar = () => {
           <li>
             <Link href={"/results"}>Results</Link>
           </li>
+          <li>
+            <Link href={"/uploadstudent"}>uploadstudent</Link>
+          </li>
 
           <li>
             <a className="p-0 h-0">
