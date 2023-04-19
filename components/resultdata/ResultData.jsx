@@ -46,6 +46,7 @@ const ResultData = () => {
       );
   }, []);
   // filtering data for search
+
   const filteredData = state.data.filter((item) => {
     return (
       item.name.toLowerCase().includes(state.search.toLowerCase()) ||
@@ -59,6 +60,7 @@ const ResultData = () => {
     const firstPostIndex = lastPostIndex - state.postsPerPage;
     return filteredData.slice(firstPostIndex, lastPostIndex);
   };
+
   return (
     <div className="flex flex-col justify-between items-center gap-y-2  min-h-[90vh]">
       <div>
@@ -83,25 +85,29 @@ const ResultData = () => {
               <input className="" type="checkbox" />
 
               <div
-                className={`flex items-center justify-between collapse-title   font-medium`}
+                className={`flex items-center justify-between collapse-title   font-medium w-full`}
               >
-                <p className=" flex gap-1 text-black text-xs flex-wrap">
+                <p className=" flex gap-1 text-black text-xs flex-wrap gap-x-2">
                   <span className="bg-primary  p-2 rounded-lg ">
                     {item.name}
                   </span>
                   <span className="bg-primary p-2 rounded-lg">
                     {item.registerNumber}
                   </span>
-                  <span className="bg-secondary p-2 rounded-lg">
-                    CGPA :
-                    <span>
-                      {item.cgpa} ({(item.cgpa * 9.5).toFixed(2)}%)
+                  {item.cgpa && (
+                    <span className="bg-secondary p-2 rounded-lg">
+                      CGPA :
+                      <span>
+                        {item.cgpa} ({(item.cgpa * 9.5).toFixed(2)}%)
+                      </span>
                     </span>
-                  </span>
+                  )}
                 </p>
-                <div className=" flex justify-between items-center gap-2">
-                  <ExcelDownloadButton data={item} />
-                </div>
+                {item.cgpa && (
+                  <div className=" flex justify-between items-center gap-2">
+                    <ExcelDownloadButton data={item} />
+                  </div>
+                )}
               </div>
               <div className="collapse-content">
                 <TableData
