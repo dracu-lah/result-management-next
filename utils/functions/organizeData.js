@@ -27,5 +27,6 @@ export const organizeData = (jsonData) => {
       });
     }
   });
+  console.log(organizedData);
   return organizedData;
 };
