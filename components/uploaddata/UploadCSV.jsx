@@ -21,13 +21,12 @@ const UploadCSV = () => {
           const xlsx_json = utils.sheet_to_json(worksheet);
           const str = JSON.stringify(xlsx_json);
 
-          // let isFound = str.includes(
-          //   "register number" ||
-          //     "Register Number" ||
-          //     "registerNumber" ||
-          //     "RegisterNumber"
-          // );
-          let isFound = true;
+          let isFound = str.includes(
+            "register number" ||
+              "Register Number" ||
+              "registerNumber" ||
+              "RegisterNumber"
+          );
           if (isFound) {
             const organizedData = organizeData(xlsx_json);
             setResult(organizedData);
@@ -50,11 +49,11 @@ const UploadCSV = () => {
       onSubmit={async (e) => {
         e.preventDefault();
         try {
-          await axios.post("http://localhost:8000/", { result });
-          // await axios.post(
-          //   "https://result-management-node-production.up.railway.app/",
-          //   { result }
-          // );
+          // await axios.post("http://localhost:8000/", { result });
+          await axios.post(
+            "https://result-management-node-production.up.railway.app/",
+            { result }
+          );
           console.log("results sent to server");
         } catch (error) {
           console.error(error);
