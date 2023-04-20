@@ -12,7 +12,12 @@ const uploadstudent = () => {
     }
   }, [session]);
 
-  return <UploadStudentCSV />;
+  // return <UploadStudentCSV />;
+  return (
+    <>
+      <h1>uploadstudent</h1>
+    </>
+  );
 };
 
 export default uploadstudent;
