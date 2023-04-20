@@ -21,11 +21,12 @@ export const organizeData = (jsonData) => {
           {
             course: data["course"],
             grade: data["grade"],
-            result: data["result"],
+            // result: data["result"],
           },
         ],
       });
     }
   });
+  console.log(organizedData);
   return organizedData;
 };

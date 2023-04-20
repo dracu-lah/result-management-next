@@ -22,7 +22,7 @@ const TableData = ({ semData, registerNumber, name }) => {
               <div className="flex gap-x-2">
                 <ExcelDownloadSemester semData={item} />
                 <p className="p-2 bg-accent rounded-lg text-xs md:text-sm text-black">
-                  SGPA : {item.sgpa} ({(item.sgpa - 0.75) * 10}%)
+                  SGPA : {item.sgpa} ({((item.sgpa - 0.75) * 10).toFixed(2)}%)
                 </p>
               </div>
             </div>
@@ -51,7 +51,11 @@ const TableData = ({ semData, registerNumber, name }) => {
       </div>
     );
   } else {
-    return <div className="overflow-x-auto"><h1 className="text-center">No Semester Data</h1></div>;
+    return (
+      <div className="overflow-x-auto">
+        <h1 className="text-center">No Semester Data</h1>
+      </div>
+    );
   }
 };
 

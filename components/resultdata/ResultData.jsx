@@ -5,12 +5,15 @@ import TableData from "./tabledata/TableData";
 import Pagination from "./Pagination";
 import axios from "axios";
 // initialising states
+// initialising states
 const initialState = {
   search: "",
   data: [],
+  loading: true, // set loading to true by default
   currentPage: 1,
   postsPerPage: 6,
 };
+
 // reducer functions
 const reducer = (state, action) => {
   // switch through states
@@ -19,6 +22,8 @@ const reducer = (state, action) => {
       return { ...state, search: action.payload };
     case "SET_DATA":
       return { ...state, data: action.payload };
+    case "SET_LOADING":
+      return { ...state, loading: action.payload };
     case "SET_CURRENT_PAGE":
       return { ...state, currentPage: action.payload };
     default:
@@ -41,9 +46,10 @@ const ResultData = () => {
       .get(
         "https://result-management-node-production.up.railway.app/api/results"
       )
-      .then((response) =>
-        dispatch({ type: "SET_DATA", payload: response.data })
-      );
+      .then((response) => {
+        dispatch({ type: "SET_DATA", payload: response.data });
+        dispatch({ type: "SET_LOADING", payload: false });
+      });
   }, []);
   // filtering data for search
 
@@ -60,7 +66,9 @@ const ResultData = () => {
     const firstPostIndex = lastPostIndex - state.postsPerPage;
     return filteredData.slice(firstPostIndex, lastPostIndex);
   };
-
+  if (state.loading) {
+    return <p>loading...</p>;
+  }
   return (
     <div className="flex flex-col justify-between items-center gap-y-2  min-h-[90vh]">
       <div>
