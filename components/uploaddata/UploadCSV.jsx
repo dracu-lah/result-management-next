@@ -50,11 +50,11 @@ const UploadCSV = () => {
       onSubmit={async (e) => {
         e.preventDefault();
         try {
-          // await axios.post("http://localhost:8000/api/results", { result });
-          await axios.post(
-            "https://result-management-node-production.up.railway.app/",
-            { result }
-          );
+          await axios.post("http://localhost:8000/", { result });
+          // await axios.post(
+          //   "https://result-management-node-production.up.railway.app/",
+          //   { result }
+          // );
           console.log("results sent to server");
         } catch (error) {
           console.error(error);
