@@ -53,7 +53,7 @@ const UploadCSV = () => {
           try {
             // await axios.post("http://localhost:8000/", { result });
             await axios.post(
-              "https://result-management-node-production.up.railway.app/",
+              "https://result-management-backend-07ie.onrender.com/",
               { result }
             );
             console.log("results sent to server");

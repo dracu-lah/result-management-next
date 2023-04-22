@@ -44,7 +44,7 @@ const ResultData = () => {
   useEffect(() => {
     axios
       .get(
-        "https://result-management-node-production.up.railway.app/api/results"
+        "https://result-management-backend-07ie.onrender.com/api/results"
       )
       .then((response) => {
         dispatch({ type: "SET_DATA", payload: response.data });
