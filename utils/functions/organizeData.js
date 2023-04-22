@@ -10,7 +10,7 @@ export const organizeData = (jsonData) => {
       newData.courses.push({
         course: data["course"],
         grade: data["grade"],
-        result: data["result"],
+        // result: data["result"],
       });
     } else {
       organizedData.push({
