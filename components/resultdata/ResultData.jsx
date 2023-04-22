@@ -67,7 +67,7 @@ const ResultData = () => {
     return filteredData.slice(firstPostIndex, lastPostIndex);
   };
   if (state.loading) {
-    return <p>loading...</p>;
+    return <p className="animate-pulse">loading...</p>;
   }
   return (
     <div className="flex flex-col justify-between items-center gap-y-2  min-h-[90vh]">
