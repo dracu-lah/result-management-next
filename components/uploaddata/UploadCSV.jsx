@@ -84,9 +84,11 @@ const UploadCSV = () => {
             to view the data
           </p>
         </div>
-        <button className="btn " type="submit">
-          POST
-        </button>
+        {result && (
+          <button className="btn " type="submit">
+            POST
+          </button>
+        )}
         <ToastContainer />
       </form>
     </div>
