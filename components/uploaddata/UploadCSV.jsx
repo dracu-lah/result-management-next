@@ -7,7 +7,7 @@ import axios from "axios";
 import { organizeData } from "../../utils/functions/organizeData";
 
 const UploadCSV = () => {
-  const [result, setResult] = useState({});
+  const [result, setResult] = useState(null);
   const readUploadFile = (e) => {
     e.preventDefault();
     try {
@@ -43,34 +43,53 @@ const UploadCSV = () => {
     }
   };
 
+  console.log(typeof result);
   return (
-    <form
-      className="flex flex-col md:flex-row gap-10 items-center justify-center"
-      onSubmit={async (e) => {
-        e.preventDefault();
-        try {
-          // await axios.post("http://localhost:8000/", { result });
-          await axios.post(
-            "https://result-management-node-production.up.railway.app/",
-            { result }
-          );
-          console.log("results sent to server");
-        } catch (error) {
-          console.error(error);
-          toast("Data not send to server");
-        }
-      }}
-    >
-      <input
-        className="file-input file-input-bordered w-full max-w-xs"
-        type="file"
-        onChange={readUploadFile}
-      />
-      <button className="btn " type="submit">
-        POST
-      </button>
-      <ToastContainer />
-    </form>
+    <div>
+      <form
+        className="flex flex-col gap-10 items-center justify-center"
+        onSubmit={async (e) => {
+          e.preventDefault();
+          try {
+            // await axios.post("http://localhost:8000/", { result });
+            await axios.post(
+              "https://result-management-node-production.up.railway.app/",
+              { result }
+            );
+            console.log("results sent to server");
+          } catch (error) {
+            console.error(error);
+            toast("Data not send to server");
+          }
+        }}
+      >
+        <div className="flex gap-10">
+          <input
+            className="file-input file-input-bordered w-full max-w-xs"
+            type="file"
+            onChange={readUploadFile}
+          />
+          <button type="reset" onClick={() => setResult(null)}>
+            reset
+          </button>
+        </div>
+        <div>
+          {result && (
+            <p className=" bg-slate-900 text-slate-100 dark:bg-slate-800   max-h-80 rounded-md p-2 overflow-scroll scrollbar-hide">
+              <pre className=" ">{JSON.stringify(result, null, 2)}</pre>
+            </p>
+          )}
+          <p className="text-sm p-1">
+            <span>{result ? "scroll" : "upload"} </span>
+            to view the data
+          </p>
+        </div>
+        <button className="btn " type="submit">
+          POST
+        </button>
+        <ToastContainer />
+      </form>
+    </div>
   );
 };
 
