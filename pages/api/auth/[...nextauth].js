@@ -16,7 +16,7 @@ export default NextAuth({
         // Add logic here to look up the user from the credentials supplied
 
         const res = await fetch(
-          "https://result-management-node-production.up.railway.app/auth/users",
+          "https://result-management-backend-07ie.onrender.com/auth/users",
           {
             method: "POST",
             headers: {
