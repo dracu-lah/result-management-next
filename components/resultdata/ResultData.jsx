@@ -35,22 +35,23 @@ const ResultData = () => {
   const [state, dispatch] = useReducer(reducer, initialState);
   // use effect for output.json
 
-  // useEffect(() => {
-  //   fetch("output.json")
-  //     .then((response) => response.json())
-  //     .then((data) => dispatch({ type: "SET_DATA", payload: data }))
-  //     .catch((error) => console.log(error));
-  // }, []);
   useEffect(() => {
-    axios
-      .get(
-        "https://result-management-backend-07ie.onrender.com/api/results"
-      )
-      .then((response) => {
-        dispatch({ type: "SET_DATA", payload: response.data });
-        dispatch({ type: "SET_LOADING", payload: false });
-      });
+    fetch("output.json")
+      .then((response) => response.json())
+      .then((data) => dispatch({ type: "SET_DATA", payload: data }))
+      .then((data) => dispatch({ type: "SET_LOADING", payload: false }))
+      .catch((error) => console.log(error));
   }, []);
+  // useEffect(() => {
+  //   axios
+  //     .get(
+  //       "https://result-management-backend-07ie.onrender.com/api/results"
+  //     )
+  //     .then((response) => {
+  //       dispatch({ type: "SET_DATA", payload: response.data });
+  //       dispatch({ type: "SET_LOADING", payload: false });
+  //     });
+  // }, []);
   // filtering data for search
 
   const filteredData = state.data.filter((item) => {
