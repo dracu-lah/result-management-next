@@ -11,7 +11,7 @@ import {
 const SemesterAreaChart = ({ semData }) => {
   const data = [];
   semData.map((sem) => {
-    data.push({ sem: `sem:${sem.semester}`, sgpa: sem.sgpa });
+    data.push({ sem: `sem:${sem.sem}`, sgpa: sem.sgpa });
   });
   return (
     <AreaChart

@@ -17,7 +17,7 @@ const TableData = ({ semData, registerNumber, name }) => {
           <div key={index}>
             <div className="flex justify-between m-2 items-center">
               <h1 className="text-center p-4 uppercase font-bold">
-                Semester {item.semester}
+                Semester {item.sem}
               </h1>
               <div className="flex gap-x-2">
                 <ExcelDownloadSemester semData={item} />

@@ -18,12 +18,8 @@ const Navbar = () => {
       </div>
       <div className="flex-none">
         <ul className="menu menu-horizontal items-center px-4 gap-x-2">
-          <li>
-            <Link href={"/results"}>Results</Link>
-          </li>
-          <li>
-            <Link href={"/uploadstudent"}>uploadstudent</Link>
-          </li>
+          <li>{/* <Link href={"/results"}>Results</Link> */}</li>
+          <li>{/* <Link href={"/uploadstudent"}>uploadstudent</Link> */}</li>
 
           <li>
             <a className="p-0 h-0">

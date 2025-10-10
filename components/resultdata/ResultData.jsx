@@ -4,6 +4,7 @@ import ExcelDownloadButton from "./ExcelDownloadButton";
 import TableData from "./tabledata/TableData";
 import Pagination from "./Pagination";
 import axios from "axios";
+import { generateVariedResults } from "./tabledata/generateVariedResults";
 // initialising states
 // initialising states
 const initialState = {
@@ -38,7 +39,9 @@ const ResultData = () => {
   useEffect(() => {
     fetch("output.json")
       .then((response) => response.json())
-      .then((data) => dispatch({ type: "SET_DATA", payload: data }))
+      .then((data) =>
+        dispatch({ type: "SET_DATA", payload: generateVariedResults(data) }),
+      )
       .then((data) => dispatch({ type: "SET_LOADING", payload: false }))
       .catch((error) => console.log(error));
   }, []);
